@@ -13,6 +13,7 @@
 		8751B2232C6345BF00EDE147 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751B2222C6345BF00EDE147 /* Onboarding.swift */; };
 		8751B2252C634AE100EDE147 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751B2242C634AE100EDE147 /* Home.swift */; };
 		8751B2272C634B0A00EDE147 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751B2262C634B0A00EDE147 /* Menu.swift */; };
+		8751B2292C634E7A00EDE147 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751B2282C634E7A00EDE147 /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		8751B2222C6345BF00EDE147 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		8751B2242C634AE100EDE147 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		8751B2262C634B0A00EDE147 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		8751B2282C634E7A00EDE147 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				8751B2222C6345BF00EDE147 /* Onboarding.swift */,
 				8751B2242C634AE100EDE147 /* Home.swift */,
 				8751B2262C634B0A00EDE147 /* Menu.swift */,
+				8751B2282C634E7A00EDE147 /* UserProfile.swift */,
 			);
 			path = littlelemon;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				8751B2232C6345BF00EDE147 /* Onboarding.swift in Sources */,
 				8751B2252C634AE100EDE147 /* Home.swift in Sources */,
+				8751B2292C634E7A00EDE147 /* UserProfile.swift in Sources */,
 				8751B2272C634B0A00EDE147 /* Menu.swift in Sources */,
 				8751B2152C62056B00EDE147 /* littlelemonApp.swift in Sources */,
 			);
