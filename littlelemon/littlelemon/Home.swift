@@ -12,7 +12,10 @@ struct Home: View {
         TabView {
             Menu()
                 .tabItem { Label("Menu",systemImage: "list.dash") }
+        UserProfile()
+                .tabItem { Label("Profile",systemImage: "square.and.pencil") }
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
