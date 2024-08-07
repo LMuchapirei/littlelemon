@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		8751B2152C62056B00EDE147 /* littlelemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751B2142C62056B00EDE147 /* littlelemonApp.swift */; };
-		8751B2172C62056B00EDE147 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751B2162C62056B00EDE147 /* ContentView.swift */; };
 		8751B2192C62056E00EDE147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8751B2182C62056E00EDE147 /* Assets.xcassets */; };
 		8751B21C2C62056E00EDE147 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8751B21B2C62056E00EDE147 /* Preview Assets.xcassets */; };
+		8751B2232C6345BF00EDE147 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751B2222C6345BF00EDE147 /* Onboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8751B2112C62056B00EDE147 /* littlelemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littlelemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8751B2142C62056B00EDE147 /* littlelemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = littlelemonApp.swift; sourceTree = "<group>"; };
-		8751B2162C62056B00EDE147 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8751B2182C62056E00EDE147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8751B21B2C62056E00EDE147 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8751B2222C6345BF00EDE147 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				8751B2142C62056B00EDE147 /* littlelemonApp.swift */,
-				8751B2162C62056B00EDE147 /* ContentView.swift */,
 				8751B2182C62056E00EDE147 /* Assets.xcassets */,
 				8751B21A2C62056E00EDE147 /* Preview Content */,
+				8751B2222C6345BF00EDE147 /* Onboarding.swift */,
 			);
 			path = littlelemon;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8751B2172C62056B00EDE147 /* ContentView.swift in Sources */,
+				8751B2232C6345BF00EDE147 /* Onboarding.swift in Sources */,
 				8751B2152C62056B00EDE147 /* littlelemonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
