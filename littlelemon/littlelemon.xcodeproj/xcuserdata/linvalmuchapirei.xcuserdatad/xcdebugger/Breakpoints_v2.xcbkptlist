@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "ADF96E20-D179-4013-A751-31637AE02EC3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5C1B4D8-2F1D-4820-BC4D-14D73308C9B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "littlelemon/Menu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E5C1B4D8-2F1D-4820-BC4D-14D73308C9B8 - 576ccc20aac29109"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in littlelemon.Menu.body.getter : some"
+                  moduleName = "littlelemon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linvalmuchapirei/learn/iosdev/UIKit/MetaiOSDevCourse/portfolio/littlelemon/littlelemon/littlelemon/Menu.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "E5C1B4D8-2F1D-4820-BC4D-14D73308C9B8 - 572ebe3d53411060"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #2 @Sendable () async -&gt; () in littlelemon.Menu.body.getter : some"
+                  moduleName = "littlelemon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linvalmuchapirei/learn/iosdev/UIKit/MetaiOSDevCourse/portfolio/littlelemon/littlelemon/littlelemon/Menu.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "E5C1B4D8-2F1D-4820-BC4D-14D73308C9B8 - 4fb23162fc33d50b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async -&gt; () in littlelemon.Menu.body.getter : some"
+                  moduleName = "littlelemon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linvalmuchapirei/learn/iosdev/UIKit/MetaiOSDevCourse/portfolio/littlelemon/littlelemon/littlelemon/Menu.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFF8DE33-DBF8-4647-9F3F-4C40B5BC1B8D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DishModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "reload(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
