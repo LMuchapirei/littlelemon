@@ -13,6 +13,9 @@ extension Dish {
             let dish = Dish(context: context)
             dish.title = menuItem.title
             dish.price = menuItem.price
+            dish.dishDescription = menuItem.dishDescription
+            dish.category = menuItem.category
+            dish.image = menuItem.image
         }
         
         do {

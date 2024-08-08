@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct littlelemonApp: App {
+    
     var body: some Scene {
         WindowGroup {
             Onboarding()

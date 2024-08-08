@@ -8,8 +8,37 @@
 import SwiftUI
 
 struct HeaderView: View {
+    @State var isLoggedIn = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//        NavigationView {
+            VStack {
+                ZStack {
+                    Image("logo")
+                    HStack {
+                        Spacer()
+                        if isLoggedIn {
+                            NavigationLink(destination: UserProfile()) {
+                                Image("profile-image-placeholder")
+                                    .resizable()
+                                    .aspectRatio( contentMode: .fit)
+                                    .frame(maxHeight: 50)
+                                    .clipShape(Circle())
+                                    .padding(.trailing)
+                            }
+                        }
+                    }
+                }
+//            }
+        }
+        .frame(maxHeight:60)
+        .padding(.bottom)
+        .onAppear {
+            if UserDefaults.standard.bool(forKey: kIsLoggedIn) {
+                isLoggedIn = true
+            } else {
+                isLoggedIn = false
+            }
+        }
     }
 }
 
