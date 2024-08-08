@@ -15,12 +15,22 @@ let kEmail = "email key"
 let kIsLoggedIn = "kIsLoggedIn"
 let kPhoneNumber="phone number key"
 
+ let kOrderStatuses = "order statuses key"
+ let kPasswordChanges = "password changes key"
+ let kSpecialOffers = "special offers key"
+ let kNewsletter = "news letter key"
+
 
 class OnboardingViewModel: ObservableObject {
     @Published var firstName = UserDefaults.standard.string(forKey: kFirstName) ?? ""
     @Published var lastName = UserDefaults.standard.string(forKey: kLastName) ?? ""
     @Published var email = UserDefaults.standard.string(forKey: kEmail) ?? ""
     @Published var phoneNumber = UserDefaults.standard.string(forKey: kPhoneNumber) ?? ""
+    
+    @Published var orderStatuses = UserDefaults.standard.bool(forKey: kOrderStatuses)
+    @Published var passwordChanges = UserDefaults.standard.bool(forKey: kPasswordChanges)
+    @Published var specialOffers = UserDefaults.standard.bool(forKey: kSpecialOffers)
+    @Published var newsletter = UserDefaults.standard.bool(forKey: kNewsletter)
     
     @Published var errorMessageShow = false
     @Published var errorMessage = ""

@@ -15,20 +15,27 @@ struct Menu: View {
     @State var mainsIsEnabled = false
     @State var dessertsIsEnabled = false
     @State var drinksIsEnabled = false
+    @State var isKeyboardVisible = false
     var body: some View {
         VStack {
             HeaderView()
-            Hero(
-                )
-                .padding()
-                .background(Color.primaryColor)
-                .frame(maxWidth: .infinity, maxHeight: 280)
-            TextField("Search", text: $searchText)
-                            .padding()
-                            .background(Color(.systemGray6))
-                            .cornerRadius(10)
-                            .padding([.horizontal, .top])
-                            .searchable(text: $searchText)
+            VStack {
+                if !isKeyboardVisible {
+                    Hero(
+                    )
+                    .padding()
+                    .background(Color.primaryColor)
+                    .frame(maxWidth: .infinity, maxHeight: 250)
+                }
+                TextField("Search", text: $searchText)
+                                .padding()
+                                .background(Color(.systemGray6))
+                                .cornerRadius(10)
+                                .padding([.horizontal, .top])
+                                .searchable(text: $searchText)
+            }
+               
+
             Text("ORDER FOR DELIVERY!")
                 .font(.sectionTitle())
                 .foregroundColor(.black)
@@ -57,7 +64,19 @@ struct Menu: View {
                     }
                 }
             }
-        }.task {
+        }
+         .onReceive(NotificationCenter.default.publisher(for: UIResponder.keyboardWillShowNotification)) { notification in
+            withAnimation {
+                self.isKeyboardVisible = true
+            }
+            
+        }
+        .onReceive(NotificationCenter.default.publisher(for: UIResponder.keyboardWillHideNotification)) { notification in
+            withAnimation {
+                self.isKeyboardVisible = false
+            }
+        }
+        .task {
             await dishesModel.reload(viewContext)
         }
     }
